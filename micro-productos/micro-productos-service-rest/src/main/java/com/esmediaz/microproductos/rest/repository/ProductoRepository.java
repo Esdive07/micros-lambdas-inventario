@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.esmediaz.microproductos.rest.entity.ProductoEntity;
 
-public interface ProductoRespositorio extends JpaRepository<ProductoEntity, Integer>{
+public interface ProductoRepository extends JpaRepository<ProductoEntity, Integer>{
 
 }
